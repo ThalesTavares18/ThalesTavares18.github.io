@@ -1,0 +1,143 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #17032e;
+	color: white;
+	
+}
+
+h1{
+	text-align: left;
+	font-size: 8vh;
+	padding: 130px;
+	padding-left: 50px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.card{
+	background-color: #3e1969;
+	padding: 20px;
+	margin: 35px;
+	border-radius: 10px;
+	
+}
+
+
+img {
+  display: flex;
+  background-color: #3e1969;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 18px;
+  width: 500px;
+}
+
+
+
+.menu{
+	display:flex;
+	justify-content: space-evenly;
+	
+	
+}
+
+a{
+	padding:10px 25px;
+	border-radius: 16px;
+	text-decoration:none;
+	font-size: 25px;
+	background-color:#470494;
+	cursor: pointer;
+}
+
+a:hover{
+	background-color:#b947d6;
+}
+
+h2{
+	font-size: 7vh;
+	color: #6cdeeb;
+	font-weight: bold;
+	font-style: italic;
+}
+h3{
+	font-size:25px;
+	color: #d18af2;
+}
+
+p{
+	font-size:20px;
+}
+
+h2, h3, p{
+	text-align: center;
+	background-color: #3e1969;
+}
+
+.card a{
+	background-color: #e8ff14;
+	color: black;
+    display: flex;
+	justify-content: center;
+	padding: 10px 9px;
+	margin: 45px 150px;
+
+}
+
+.card a:hover{
+	background-color: white;
+	color: #fff200;
+}
+
+input[type=text], select {
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form, form div{
+	background-color:#3e1969;
+}
+
+label{
+	font-size: 20px;
+	background-color:#3e1969
+}
+
+#mensagem{
+	padding:13px 17px 57px 16px;
+	
+	
+}
+
+::placeholder {
+  color: black;
+  
+}
+input{
+	color:black;
+}
+
+input[type=submit] {
+  width: 100%;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
